@@ -1,0 +1,48 @@
+body {
+    max-width: 800px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+
+.top-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-container {
+    box-sizing: border-box;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.photo {
+    max-width: 100%;
+    padding: 10px;
+}
+
+.name-container {
+    box-sizing: border-box;
+    width: 75%;
+    padding: 10px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+address {
+}
+
+.name {
+    text-transform: uppercase;
+}
+
+.section-header {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
