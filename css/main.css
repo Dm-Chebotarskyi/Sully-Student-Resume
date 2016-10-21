@@ -1,6 +1,13 @@
 body {
+    margin: 0;
+}
+
+.main-container {
     max-width: 800px;
     margin: auto;
+    background-color: #FFFFCC;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 header {
@@ -45,4 +52,26 @@ address {
 
 .bold {
     font-weight: bold;
+}
+
+.employment-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.job-container {
+    box-sizing: border-box;
+    width: 50%;
+    text-align: center;
+    background-color: #99CCCC;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#job2 {
+    background-color: #FFCCCC;
+}
+
+.job-title {
+    font-size: 1em;
 }
